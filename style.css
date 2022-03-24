@@ -1,0 +1,27 @@
+div.sign-container {
+  text-align: center;
+}
+
+#sign-field {
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+div.button-container {
+  margin-top: 25px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  column-gap: 5px;
+}
+
+div.button-container a {
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(84, 194, 84);
+  border-radius: 3px;
+  padding: 3px 5px;
+  font-size: 1em;
+}
