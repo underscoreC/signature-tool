@@ -62,6 +62,8 @@ window.addEventListener('load', function() {
   copyButton.addEventListener('click', () => {
     console.log('Code copied!');
     navigator.clipboard.writeText(`<html><img src=\"${signField.toDataURL()}\"></html>`);
+    copyButton.innerHTML = "Unterschrift kopiert!";
+    this.setTimeout(window.close, 500);
   });
 
   const clearButton = this.document.getElementById('clear-signature');
